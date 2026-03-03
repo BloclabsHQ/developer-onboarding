@@ -4,17 +4,68 @@
 
 ---
 
-## The Flow
+## The Core Rule: 1 Issue = 1 PR
+
+Every code change traces back to a GitHub Issue (or Linear ticket). The issue defines *what* and *why*. The PR delivers *how*.
+
+This isn't bureaucracy — it's how we maintain traceability, enable fast reviews, and keep a clean history. When something breaks in production, we can trace the change back to the issue that motivated it in seconds.
+
+### Why 1:1 Mapping?
+
+| Benefit | Why it matters |
+|---------|---------------|
+| **Traceability** | Every line of code links to a reason it was written |
+| **Reviewability** | Small, focused PRs are fast to review and safe to revert |
+| **CI gate** | No code lands without build + tests passing |
+| **Clean history** | `git log` tells the story of the product |
+| **Auto-close** | `Closes #N` in the PR description auto-closes the issue on merge |
+| **Accountability** | Clear ownership — who did what, when, and why |
+
+### When to Raise a PR ✅
+
+| Scenario | PR? | Notes |
+|----------|-----|-------|
+| Feature implementation from an issue | ✅ | Branch off main, 1 PR per issue |
+| Bug fix with reproducible root cause | ✅ | Small, focused diff |
+| Refactor that changes behavior | ✅ | Needs tests to prove safety |
+| Docs update tied to a code change | ✅ | Can bundle with the code PR |
+| Security fix / patch | ✅ | Mark as security in description |
+| Dependency bump | ✅ | Keep isolated from feature work |
+| Config change that touches prod infra | ✅ | Always needs review |
+
+### When NOT to Raise a PR ❌
+
+| Scenario | PR? | Notes |
+|----------|-----|-------|
+| Exploration / spike / research | ❌ | Stay in local branch, discard when done |
+| WIP that doesn't build or pass tests | ❌ | Never open a PR with a broken build |
+| Pure local config / dev-only change | ❌ | No review needed |
+| Micro-edits to your own draft PR | ❌ | Push more commits to the existing PR |
+
+### What If One Issue Needs Multiple PRs?
+
+Sometimes an issue is too big for one PR (>500 lines changed). Split it:
+
+1. Break the issue into sub-tasks in Linear
+2. Each sub-task gets its own branch and PR
+3. PRs should be independently mergeable (no "Part 1 of 3" chains that break if merged out of order)
+4. Use feature flags if the feature needs all parts to work
+
+---
+
+## The Full Flow
 
 ```
-1. Pick a ticket in Linear
-2. Create a branch: feat/FAB-123-description
-3. Write code + tests
-4. Push, open PR
-5. AI review + human review
-6. Merge to main
-7. Auto-deploy to staging
-8. Promote to production
+1. Issue created (Linear / GitHub) — describes the problem or feature
+2. Developer picks it up, moves to "In Progress"
+3. Clone repo → create branch: feat/FAB-123-description or fix/FAB-456-description
+4. READ EXISTING CODE FIRST (mandatory — understand the area before changing it)
+5. Implement → build passes → tests pass → lint clean
+6. Push branch → open PR referencing the issue: "Closes FAB-123" or "Closes #N"
+7. CI runs automatically (tests, lint, build, security scan)
+8. PR reviewed (AI + human) → approved → squash merged
+9. Issue auto-closes → auto-deploy to staging
+10. Promote to production after staging verification
 ```
 
 ---
