@@ -2,6 +2,8 @@
 
 > Go is our primary backend language. Simple, fast, and built for the problems we solve.
 
+> 🚀 **Start here:** See our [Go Service Blueprint](https://github.com/BloclabsHQ/Fabric-go-service-blueprint) for a production-ready starting point — DDD architecture, gRPC + HTTP, OpenTelemetry pre-wired. Clone it, don't build from scratch.
+
 ---
 
 ## Why Go
