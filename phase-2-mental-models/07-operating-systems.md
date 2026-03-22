@@ -238,7 +238,7 @@ go func() {
 }()
 ```
 
-**Rule:** Always handle SIGTERM gracefully. Finish in-flight requests, close database connections, flush logs. Kubernetes sends SIGTERM before SIGKILL.
+**Rule:** Always handle SIGTERM gracefully. Finish in-flight requests, close database connections, flush logs. Container orchestrators (ECS, Docker) send SIGTERM before SIGKILL.
 
 ---
 

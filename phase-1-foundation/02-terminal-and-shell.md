@@ -138,7 +138,6 @@ plugins=(
     git               # Git aliases and status in prompt
     z                 # Jump to frequent directories (type 'z proj' instead of 'cd ~/Developer/bloclabs/project')
     docker            # Docker completions
-    kubectl           # Kubernetes completions
     aws               # AWS completions
     colored-man-pages # Readable man pages
     extract           # Extract any archive with 'extract file.tar.gz'

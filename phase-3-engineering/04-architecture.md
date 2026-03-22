@@ -181,6 +181,9 @@ func main() {
 - *A Philosophy of Software Design* — John Ousterhout
 - *Clean Architecture* — Robert C. Martin
 - [Ardanlabs Service Wiki](https://github.com/ardanlabs/service/wiki) — Go architecture (our reference)
+- [Ardanlabs Design Guidelines](https://github.com/ardanlabs/service/wiki/design-guidelines) — design philosophy
+- [Ardanlabs DDD](https://github.com/ardanlabs/service/wiki/Domain-Driven,-Data-Oriented-Design) — domain-driven, data-oriented design
+- [Ardanlabs Project Structure](https://github.com/ardanlabs/service/wiki/project-structure) — package layout
 
 ---
 

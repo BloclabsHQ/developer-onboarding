@@ -223,14 +223,14 @@ Invoke with `/output-style compressed`. Built-ins: `Default`, `Explanatory`, `Le
 
 ---
 
-## BlocLabs Repos
+## Key References
 
-| Repo | URL |
-|------|-----|
+| Resource | URL |
+|----------|-----|
 | Engineering Principles | https://github.com/agent67-atlas/engineering-principles |
-| Frontend Template | https://github.com/BloclabsHQ/frontend-template |
-| Fabric Go Service Blueprint | https://github.com/BloclabsHQ/Fabric-go-service-blueprint |
-| Brand Kit Template | https://github.com/BloclabsHQ/brand-kit-template |
+| Ardan Labs Service Wiki | https://github.com/ardanlabs/service/wiki |
+| Ardan Labs Design Guidelines | https://github.com/ardanlabs/service/wiki/design-guidelines |
+| Ardan Labs DDD | https://github.com/ardanlabs/service/wiki/Domain-Driven,-Data-Oriented-Design |
 
 ---
 

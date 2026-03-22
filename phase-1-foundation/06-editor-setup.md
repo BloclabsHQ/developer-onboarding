@@ -133,10 +133,10 @@ One workspace per project. Don't open your entire home directory.
 
 ```bash
 # Open project in Cursor
-cursor ~/Developer/bloclabs/fabricbloc
+cursor ~/Developer/your-org/your-project
 
 # Or from inside a directory
-cd ~/Developer/bloclabs/fabricbloc
+cd ~/Developer/your-org/your-project
 cursor .
 ```
 

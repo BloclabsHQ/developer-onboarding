@@ -202,15 +202,15 @@ Phase 4 (AI-Augmented Development) is **mandatory** regardless of level. This is
 
 Ready-to-use starting points that implement our engineering standards. Clone these instead of starting from scratch.
 
-| Template | Link | Description |
-|----------|------|-------------|
-| Go Service Blueprint | [BloclabsHQ/Fabric-go-service-blueprint](https://github.com/BloclabsHQ/Fabric-go-service-blueprint) | Production-ready Go service — DDD architecture, gRPC + HTTP, OpenTelemetry |
-| Frontend Template | [BloclabsHQ/frontend-template](https://github.com/BloclabsHQ/frontend-template) | Standard frontend starting point |
-| Brand Kit | [BloclabsHQ/brand-kit-template](https://github.com/BloclabsHQ/brand-kit-template) | Brand kit & design guidelines |
-| API Standards & Roadmap | [BloclabsHQ/fabricbloc-standards-corpus](https://github.com/BloclabsHQ/fabricbloc-standards-corpus) | API standards & service roadmap |
-| Engineering Principles | [agent67-atlas/engineering-principles](https://github.com/agent67-atlas/engineering-principles) | Engineering principles (source of truth) |
+| Template | Description |
+|----------|-------------|
+| Go Service Blueprint | Production-ready Go service — DDD architecture, gRPC + HTTP, OpenTelemetry. Clone your org's service template instead of starting from scratch. |
+| Frontend Template | Standard frontend starting point — TypeScript, React, Vite, design system pre-wired. |
+| Brand Kit | Brand kit & design guidelines — logos, colors, typography, component patterns. |
+| API Standards & Roadmap | API standards, OpenAPI specs, and service roadmap for your platform. |
+| Engineering Principles | [agent67-atlas/engineering-principles](https://github.com/agent67-atlas/engineering-principles) — engineering principles (source of truth) |
 
-> These templates implement our [Engineering Principles](https://github.com/agent67-atlas/engineering-principles). When principles are updated, templates are updated to match.
+> These templates implement our [Engineering Principles](https://github.com/agent67-atlas/engineering-principles). When principles are updated, templates are updated to match. Inspired by [Ardan Labs Service](https://github.com/ardanlabs/service/wiki).
 
 ---
 

@@ -206,9 +206,8 @@ brew install awscli           # AWS CLI
 # Cloudflare
 brew install cloudflare/cloudflare/cloudflared  # Cloudflare Tunnel
 
-# Kubernetes (when needed)
-brew install kubectl
-brew install helm
+# Container orchestration — we use ECS/Fargate, not Kubernetes
+# No additional tooling needed beyond Docker and AWS CLI
 ```
 
 ---

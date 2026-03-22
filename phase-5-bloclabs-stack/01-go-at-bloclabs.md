@@ -2,7 +2,7 @@
 
 > Go is our primary backend language. Simple, fast, and built for the problems we solve.
 
-> 🚀 **Start here:** See our [Go Service Blueprint](https://github.com/BloclabsHQ/Fabric-go-service-blueprint) for a production-ready starting point — DDD architecture, gRPC + HTTP, OpenTelemetry pre-wired. Clone it, don't build from scratch.
+> 🚀 **Start here:** Your organization should maintain a Go service blueprint — a production-ready starting point with DDD architecture, gRPC + HTTP, and OpenTelemetry pre-wired. Clone the template, don't build from scratch.
 
 ---
 
@@ -204,6 +204,10 @@ go test -bench=. ./...           # Benchmarks
 - [Effective Go](https://go.dev/doc/effective_go)
 - [Go Blog](https://go.dev/blog/)
 - [Ardanlabs Service Wiki](https://github.com/ardanlabs/service/wiki) — our architecture reference
+- [Ardanlabs Design Guidelines](https://github.com/ardanlabs/service/wiki/design-guidelines) — design philosophy
+- [Ardanlabs DDD](https://github.com/ardanlabs/service/wiki/Domain-Driven,-Data-Oriented-Design) — domain-driven, data-oriented design
+- [Ardanlabs Project Structure](https://github.com/ardanlabs/service/wiki/project-structure) — package layout
+- [Ardanlabs Modules](https://github.com/ardanlabs/service/wiki/modules) — module organization
 - [Standard Go Project Layout](https://github.com/golang-standards/project-layout)
 - [Go Code Review Comments](https://go.dev/wiki/CodeReviewComments)
 

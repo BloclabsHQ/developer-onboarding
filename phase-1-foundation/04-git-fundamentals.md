@@ -226,7 +226,7 @@ gh issue list
 gh issue create --title "Bug: ..." --body "..."
 
 # Repos
-gh repo clone BloclabsHQ/project-name
+gh repo clone your-org/project-name
 ```
 
 ---

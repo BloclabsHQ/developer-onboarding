@@ -53,8 +53,8 @@ More bugs → more rushed fixes → more bugs → ...
 More of A causes less of B, stabilizing the system.
 
 ```
-CPU usage high → autoscaler adds servers → CPU usage drops → autoscaler removes servers
-(Kubernetes HPA)
+CPU usage high → autoscaler adds containers → CPU usage drops → autoscaler removes containers
+(ECS auto-scaling / cloud autoscaler)
 
 Response time slow → users leave → less load → response time improves
 (Self-regulating, but you lost users)

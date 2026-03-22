@@ -116,17 +116,17 @@ The interface specification for a smart contract. Tells you what functions exist
 
 ## FabricBloc — What We're Building
 
-FabricBloc is a multi-chain blockchain indexer — "AWS for blockchain data."
+FabricBloc enables creators to launch Web3 products without blockchain expertise — NFTs, tokens, DAOs, and smart accounts through simple APIs.
 
 **What it does:**
-1. Connects to blockchain nodes (EVM, Solana, Cosmos, etc.)
-2. Ingests blocks and transactions in real-time
-3. Parses, transforms, and enriches the data
-4. Stores in PostgreSQL with efficient indexes
-5. Serves via API to developers
+1. Provides API-first access to blockchain operations (mint, deploy, govern)
+2. Manages smart accounts and gasless transactions (ERC-4337)
+3. Indexes blockchain data in real-time for queryable access
+4. Handles multi-chain deployment (Ethereum, Polygon, Base)
+5. Abstracts wallet management, gas, and contract interaction
 
 **Why it matters:**
-Querying a blockchain directly is slow and limited. FabricBloc makes blockchain data as queryable as a traditional database.
+Building on blockchain is complex — key management, gas optimization, contract deployment, multi-chain support. FabricBloc handles the infrastructure so creators and developers focus on their product, not the plumbing.
 
 ---
 

@@ -23,7 +23,7 @@ VALUES ('Cris', 'cris@example.com', NOW());
 
 -- Read
 SELECT id, name, email FROM users WHERE id = 1;
-SELECT * FROM users WHERE email LIKE '%@bloclabs.com' ORDER BY created_at DESC LIMIT 10;
+SELECT * FROM users WHERE email LIKE '%@example.com' ORDER BY created_at DESC LIMIT 10;
 
 -- Update
 UPDATE users SET name = 'Cristian' WHERE id = 1;
