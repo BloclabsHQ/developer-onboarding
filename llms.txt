@@ -1,0 +1,86 @@
+# BlocLabs Developer Onboarding Program
+
+> From junior developer to AI-augmented senior engineer. Language-agnostic foundations, mental models, engineering craft, and AI-augmented development. 6 phases, 44 guides covering foundation through mastery.
+
+## Phase 1: Foundation
+
+Get your machine ready and learn the tools of the trade.
+
+- [macOS Setup](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-1-·-macOS-Setup): System config, Xcode CLI tools, essential settings
+- [Terminal & Shell](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-1-·-Terminal-and-Shell): Zsh, Oh My Zsh, navigation, piping, scripting basics
+- [Homebrew](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-1-·-Homebrew): Package management on macOS
+- [Git Fundamentals](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-1-·-Git-Fundamentals): Mental model for version control, branching, PRs
+- [Dev Tools](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-1-·-Dev-Tools): Node, Go, Python, Rust, Docker installation and verification
+- [Editor Setup](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-1-·-Editor-Setup): Cursor, VS Code, extensions, keybindings, productivity
+
+## Phase 2: Mental Models
+
+Understand the machine and the principles. Language-agnostic, career-defining.
+
+- [How Computers Work](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-2-·-How-Computers-Work): CPU, memory hierarchy, disk, I/O — what's under your code
+- [Data & Algorithms](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-2-·-Data-and-Algorithms): Structures, complexity, trade-offs — think before you code
+- [Systems Thinking](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-2-·-Systems-Thinking): Inputs/outputs, feedback loops, emergence, second-order effects
+- [Networking Fundamentals](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-2-·-Networking-Fundamentals): TCP/IP, HTTP, DNS, TLS, WebSockets — how the internet works
+- [Databases & State](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-2-·-Databases-and-State): SQL, ACID, CAP theorem, caching — where data lives
+- [Problem Solving](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-2-·-Problem-Solving): Debugging as discipline, scientific method for code
+- [Operating Systems](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-2-·-Operating-Systems): Processes, threads, memory management, filesystems
+
+## Phase 3: Engineering Craft
+
+Write code that lasts. The standards that separate professionals from hobbyists.
+
+- [Code as Craft](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-3-·-Code-as-Craft): Readability, naming, correctness > cleverness
+- [Error Handling](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-3-·-Error-Handling): The main code path, not an afterthought
+- [Testing](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-3-·-Testing): Pyramid, what to test, TDD when it fits
+- [Architecture](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-3-·-Architecture): Layering, dependency rules, clean boundaries
+- [API Design](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-3-·-API-Design): REST, contracts, versioning, backward compatibility
+- [Observability](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-3-·-Observability): Logs, metrics, traces — if you can't see it, you can't fix it
+- [Reading Code](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-3-·-Reading-Code): Navigate codebases, trace data flow, review PRs
+- [Developer Communication](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-3-·-Developer-Communication): PRs, commits, docs, asking for help, incident reports
+
+## Phase 4: AI-Augmented Development
+
+The force multiplier. How we work at BlocLabs.
+
+- [AI Tools Overview](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-4-·-AI-Tools-Overview): Cursor, Claude Code, Codex, Copilot, OpenClaw
+- [Models & When to Use Them](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-4-·-Models-and-When-to-Use-Them): Opus vs Sonnet vs GPT vs Gemini — trade-offs
+- [Prompt Engineering](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-4-·-Prompt-Engineering): How to talk to AI effectively for code
+- [Code Review with AI](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-4-·-Code-Review-with-AI): Using AI to review, not replace judgment
+- [AI Ethics & Limits](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-4-·-AI-Ethics-and-Limits): What AI gets wrong, verification, IP, licensing
+
+## Phase 5: BlocLabs Stack
+
+Our tools, our patterns, our workflow.
+
+- [Go at BlocLabs](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-5-·-Go-at-BlocLabs): Our Go patterns and conventions
+- [Rust at BlocLabs](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-5-·-Rust-at-BlocLabs): When and why we use Rust
+- [JavaScript & TypeScript](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-5-·-JavaScript-and-TypeScript): Frontend, Node.js, TypeScript patterns
+- [Python for Developers](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-5-·-Python-for-Developers): Scripting, data processing, ML pipelines
+- [PostgreSQL](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-5-·-PostgreSQL): Schema design, migrations, query performance
+- [AWS & Cloudflare](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-5-·-AWS-and-Cloudflare): Services we use, when, why
+- [Docker & Containers](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-5-·-Docker-and-Containers): Containerization, compose, registry
+- [Development Workflow](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-5-·-Development-Workflow): Linear + GitHub, branch naming, PR process
+
+## Phase 6: Mastery
+
+The path to staff engineer and beyond.
+
+- [System Design](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-6-·-System-Design): Distributed systems, scaling, trade-offs
+- [Domain-Driven Design](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-6-·-Domain-Driven-Design): Bounded contexts, aggregates, event sourcing
+- [Performance](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-6-·-Performance): Profiling, bottlenecks, optimization
+- [Security](https://github.com/BloclabsHQ/developer-onboarding/wiki/Phase-6-·-Security): OWASP, auth, secrets management, threat modeling
+
+## Guides
+
+Practical reference guides for daily engineering work.
+
+- [10x Engineer with Claude Code](https://github.com/BloclabsHQ/developer-onboarding/wiki/Guide-·-10x-Engineer-with-Claude-Code): Practical guide for maximizing productivity with Claude Code and BlocLabs engineering standards
+- [Claude Code Weekly Tips](https://github.com/BloclabsHQ/developer-onboarding/wiki/Guide-·-Claude-Code-Weekly-Tips): 12-week mastery program, one tip per week
+
+## Supplementary Tracks
+
+Optional deep-dive tracks for specialized roles.
+
+- [Apple / iOS Track](https://github.com/BloclabsHQ/developer-onboarding/wiki/Supplementary-·-Apple-iOS-Track): Swift, SwiftUI, mobile development
+- [Blockchain Track](https://github.com/BloclabsHQ/developer-onboarding/wiki/Supplementary-·-Blockchain-Track): EVM, Solana, smart contracts
+- [Infrastructure Track](https://github.com/BloclabsHQ/developer-onboarding/wiki/Supplementary-·-Infrastructure-Track): Deep AWS, Terraform, monitoring
