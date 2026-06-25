@@ -64,8 +64,8 @@ Sometimes an issue is too big for one PR (>500 lines changed). Split it:
 6. Push branch → open PR referencing the issue: "Closes FAB-123" or "Closes #N"
 7. CI runs automatically (tests, lint, build, security scan)
 8. PR reviewed (AI + human) → approved → squash merged
-9. Issue auto-closes → auto-deploy to staging
-10. Promote to production after staging verification
+9. Issue auto-closes → merge to dev auto-deploys to the dev environment
+10. Promote to prod when prod is provisioned (dev is the only deployed target today)
 ```
 
 ---
@@ -177,13 +177,12 @@ jobs:
 ## Environment Strategy
 
 ```
-local       → docker compose, hot reload
-development → shared dev cluster (optional)
-staging     → mirrors production, auto-deploy from main
-production  → manual promotion from staging
+local → docker compose, hot reload
+dev   → shared AWS ECS Fargate cluster, auto-deploy on merge to dev
+prod  → AWS ECS Fargate (declared shape, not yet provisioned)
 ```
 
-**Rule:** If it works in staging, it works in production. If staging doesn't mirror production, fix staging.
+**Rule:** `dev` is the only deployed target today. `prod` is a declared shape we promote to once it is provisioned. There is no `staging` tier.
 
 ---
 
