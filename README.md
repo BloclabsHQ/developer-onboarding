@@ -72,6 +72,7 @@ This isn't a collection of tutorials. It's a **thinking framework** — language
     ─────────
     → Engineering Mental Models:  github.com/agent67-atlas/engineering-mental-models
     → Apple Developer Guide:      github.com/agent67-atlas/apple-developer-guide
+    → Engineering & LLM Glossary: GLOSSARY.md
 ```
 
 ---
@@ -175,6 +176,12 @@ Phase 4 (AI-Augmented Development) is **mandatory** regardless of level. This is
 | 🍎 Apple/iOS | [Apple Track](supplementary/apple-ios-track.md) | Swift, SwiftUI, mobile development |
 | ⛓️ Blockchain | [Blockchain Track](supplementary/blockchain-track.md) | EVM, Solana, smart contracts |
 | 🏗️ Infrastructure | [Infrastructure Track](supplementary/infrastructure-track.md) | Deep AWS, Terraform, monitoring |
+
+---
+
+## 📖 Glossary
+
+Not a phase — a standing reference. [`GLOSSARY.md`](GLOSSARY.md) covers the general engineering, distributed-systems, product, and LLM/AI vocabulary you're expected to be fluent in for Anthropic/OpenAI-style work. Skim it once, then come back whenever an unfamiliar term shows up in a PR, a design doc, or a conversation.
 
 ---
 
