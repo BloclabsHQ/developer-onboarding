@@ -1,0 +1,10 @@
+{
+  "extraKnownMarketplaces": {
+    "bloclabs-plugins": {
+      "source": { "source": "github", "repo": "BloclabsHQ/claude-plugins" }
+    }
+  },
+  "enabledPlugins": {
+    "fabricbloc-core@bloclabs-plugins": true
+  }
+}
