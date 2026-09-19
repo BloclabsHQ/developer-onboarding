@@ -1,0 +1,7 @@
+# Claude Code: commit shared config (settings.json, agents/, skills/,
+# commands/, hooks/, rules/); keep per-user and runtime state local.
+.claude/settings.local.json
+.claude/worktrees/
+.claude/agent-memory/
+.claude/launch.json
+.claude/scheduled_tasks.lock
