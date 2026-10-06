@@ -91,6 +91,12 @@ Jump to Phase 4 (AI tools) and Phase 5 (our stack). Review Phase 3 for our engin
 ### For everyone
 Phase 4 (AI-Augmented Development) is **mandatory** regardless of level. This is how we work.
 
+The [required onboarding resources](education/requirements.md) are also
+**mandatory for every developer**, including senior hires. Complete the AWS
+Solutions Architect Associate certification, at least one Anthropic partner
+course, both required books, and the architecture reading checklist before
+marking onboarding complete. Follow this checklist alongside your phase work.
+
 ---
 
 ## Curriculum
@@ -192,6 +198,9 @@ Not a phase — a standing reference. [`GLOSSARY.md`](GLOSSARY.md) covers the ge
 | Junior → Mid | Phase 1 → 2 → 3 → 4 → 5 | 8-12 weeks |
 | Mid → Senior | Phase 2 → 3 → 4 → 5 → 6 | 4-6 weeks |
 | Senior (new hire) | Phase 4 → 5 + Phase 3 review | 1-2 weeks |
+
+These estimates cover the phase guides. Allow additional time for the
+[required certifications, courses, books, and reading](education/requirements.md).
 
 ---
 

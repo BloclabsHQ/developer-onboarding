@@ -4,6 +4,19 @@
 
 ---
 
+## Required onboarding resources
+
+Every developer, including senior hires, must complete the
+[required onboarding checklist](https://github.com/BloclabsHQ/developer-onboarding/blob/main/education/requirements.md)
+alongside their curriculum path. This requires AWS Solutions Architect
+Associate certification, at least one Anthropic partner course, reading both
+Designing Data-Intensive Applications and AI Engineering, the listed AI and
+architecture resources, and high-level understanding of the five Ardan Labs
+guides. Onboarding is complete only when all checklist items and the chosen
+curriculum path are complete.
+
+---
+
 ## Phase 1: Foundation
 
 ### macOS Setup
