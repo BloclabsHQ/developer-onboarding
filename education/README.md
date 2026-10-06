@@ -19,8 +19,11 @@ view/download only — please don't redistribute outside the org.
 
 ## What's on the shelf
 
-Each book maps to the phase it reinforces. You don't need to read them
-front-to-back — pull the one that matches what you're working through.
+Each book maps to the phase it reinforces. **AI Engineering** and
+**Designing Data-Intensive Applications** are required reading for every
+developer. Read both books in full as part of the
+[required onboarding checklist](requirements.md#must-read-books).
+The other titles are supplementary; read the chapters that match your work.
 
 | Book | Author(s) | Reinforces |
 |------|-----------|------------|
@@ -36,9 +39,9 @@ front-to-back — pull the one that matches what you're working through.
 
 ## How to use these
 
-- **Don't binge.** Read the chapter that maps to the problem in front of you.
-  *Designing Data-Intensive Applications* makes a lot more sense after you've
-  hit a real consistency bug than before.
+- **Read steadily.** Work through the two required books alongside the
+  curriculum. For supplementary titles, start with the chapter that maps to
+  the problem in front of you.
 - **The program is the spine; the books are the depth.** Phase docs tell you
   *what* matters and *why*. These tell you the full *how*.
 - **Bring it back.** If a book reframes how you think about something, add the

@@ -2,6 +2,10 @@
 
 > From junior developer to AI-augmented senior engineer. Language-agnostic foundations, mental models, engineering craft, and AI-augmented development. 6 phases, 44 guides covering foundation through mastery.
 
+## Required onboarding resources
+
+- [Required Onboarding Resources](https://github.com/BloclabsHQ/developer-onboarding/blob/main/education/requirements.md): Mandatory for every developer regardless of experience level. Earn AWS Solutions Architect Associate certification, complete at least one Anthropic partner course, read Designing Data-Intensive Applications and AI Engineering, complete the AI and architecture reading, and understand all five listed Ardan Labs guides at a high level. All checklist items are required for onboarding completion.
+
 ## Phase 1: Foundation
 
 Get your machine ready and learn the tools of the trade.
