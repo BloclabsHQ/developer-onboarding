@@ -1,12 +1,12 @@
 # Apple / iOS Track
 
-> For developers working on KeyFlo or other Apple platform projects.
+> For developers working on Apple platform projects.
 
 ---
 
 ## Overview
 
-Apple development at BlocLabs centers on **Swift** and **SwiftUI** for iOS/macOS. Our primary iOS project is **KeyFlo** — a non-custodial payment keyboard extension.
+Apple development at BlocLabs centers on **Swift** and **SwiftUI** for iOS/macOS.
 
 ---
 
@@ -24,7 +24,6 @@ Covers:
 - **Design Resources** — SF Symbols, fonts, UI kits, Icon Composer
 - **Key Frameworks** — SwiftData, CloudKit, StoreKit 2, WidgetKit, App Intents
 - **Developer Program** — certificates, TestFlight, App Store distribution
-- **Keyboard Extensions** — constraints, architecture (KeyFlo-specific)
 - **Mental Models** — engineering and design thinking for world-class Apple development
 
 ---
@@ -43,14 +42,6 @@ Covers:
 - macOS with Xcode installed (full app, not just CLI tools)
 - Apple Developer account (for device testing)
 - Complete Phase 1-3 of this onboarding program first
-
----
-
-## KeyFlo-Specific
-
-If you're working on KeyFlo, also read:
-- [Keyboard Extensions](https://github.com/agent67-atlas/apple-developer-guide/blob/main/docs/keyboard-extensions.md) — constraints, memory limits, App Groups
-- [EventKit](https://github.com/agent67-atlas/apple-developer-guide/blob/main/docs/eventkit.md) — calendar integration
 
 ---
 
